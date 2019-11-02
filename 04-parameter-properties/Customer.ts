@@ -1,6 +1,8 @@
 // create a class
 // generatte tsconfig using:
-//    tsc --init
+//   tsc --build --clean
+//   tsc --init
+//   tsc
 class Customer {
   constructor(private _firstName: string, private _lastName: string) {}
 
